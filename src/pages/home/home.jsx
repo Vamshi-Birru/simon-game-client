@@ -108,7 +108,7 @@ const location=useNavigate();
  
   useEffect(() => {
     if(gamePattern!==null&&gamePattern!==undefined&&gamePattern.length>0){
-      animatePress(randomChoosenColor);
+      animatePress(randomchoosenColor);
       playsound(randomchoosenColor);
     }
      
