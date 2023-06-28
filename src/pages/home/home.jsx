@@ -165,7 +165,7 @@ const location=useNavigate();
     try{
        if(name!==null) {
         
-        const res=await axios.post("https://simon-game-server.onrender.com/score",{username:name,score:level});
+        const res=await axios.post("https://simon-game-server.onrender.com/user/score",{username:name,score:level});
        }
 
     }
